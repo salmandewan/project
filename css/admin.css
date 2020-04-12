@@ -1,0 +1,160 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+
+	font-size: 1.5rem !important;
+    font-weight: 400;
+   line-height: 1.5;
+}
+
+#result{
+	/*border: 1px solid red;*/
+}
+
+.dropdown-menu{
+   
+   font-size: 1.5rem !important;
+
+}
+
+.lead{
+	font-size: 2rem !important;
+}
+
+#admin_form_area{
+
+	margin: 0 auto;
+	border:1px solid #ccc;
+
+	max-width: 600px;
+	min-height: 700px;
+    padding:10px;
+}
+
+#form_title{
+
+	font-weight: bold;
+	font-size: 20px;
+}
+
+form.cmxform label.error, label.error{
+	
+}
+
+.btn-default {
+    color: #333;
+    background-color:#fff;
+    border-color: #ccc;
+
+    border: 1px solid #ccc !important;
+    font-size: 15px !important;
+
+
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid 
+    transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.success{
+	color:green;
+}
+
+.error{
+	color:red;
+}
+
+.form-control{
+    font-size: 1.5rem !important;
+
+}
+
+.service_indiv{
+
+height: 250px;
+border: 1px solid #cccccc;
+
+}
+
+.service_indiv_image{
+  width:200px;
+  height: 140px;
+  margin: 0 auto;
+  
+
+
+}
+.service_indiv_delete_area{
+    margin-top: 10px;
+}
+
+.service_indiv_image img{
+
+    width: 100%;
+}
+
+.service_indiv_delete_area .btn_delete{
+
+    /*border: 1px solid #cccccc;*/
+}
+
+.gallery_category_indiv{
+    margin-top: 10px;
+}
+
+.gallery_indiv{
+    width: 210px;
+    margin:0 auto; 
+}
+.gallery_indiv_image img{
+
+    width:200px;
+    height:200px;
+}
+
+#dialog{
+    display: none;
+}
+
+#gallery_image_found img, #service_image_found img,#image_found img{
+    width:100px;
+    height: 100px;
+}
+
+#profile-img-tag{
+    display: none;
+}
+
+#logout{
+    color:rgba(255,255,255,.5);
+}
+
+#logout:hover{
+    text-decoration: none;
+}
